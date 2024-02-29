@@ -681,7 +681,7 @@ form .btn2{
 }
 /* ------css for small screen------ */
 /* Media Query for Small Screens */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .container {
         padding: 10px;
     }
