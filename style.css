@@ -681,14 +681,14 @@ form .btn2{
 }
 /* ------css for small screen------ */
 /* Media Query for Small Screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .container {
         padding: 10px;
     }
 
     .logo {
-        width: 40px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
         margin-left: 5px;
     }
     /*---*/
@@ -696,15 +696,15 @@ form .btn2{
         justify-content: right;
         position: relative;
         display: flex;
-        gap: 15px;
+        gap: 5px;
         align-items: center;
     }
 
     ul li {
         position: relative;
         list-style: none;
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -718,7 +718,7 @@ form .btn2{
         inset: 21px;
         box-shadow: 0 0 0 10px var(--clr),
         0 0 0 20px var(--bg),
-        0 0 0 22px var(--clr);
+        0 0 0 21px var(--clr);
         transition: 0.5s;
     }
 
@@ -772,20 +772,17 @@ form .btn2{
     }
 
     /*---*/
-
+    #header .container img.logo {
+        width: 35px;
+        height: 35px;
+    }
     .header-text {
         margin-top: 5%;
-        font-size: 18px;
     }
 
     #gol .first {
         padding: 50px 20px;
     }
-
-    .header-text {
-        margin-top: 30%;
-    }
-
     .header-text h1 {
         font-size: 30px;
     }
