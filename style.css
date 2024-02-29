@@ -689,27 +689,28 @@ form .btn2{
     .logo {
         width: 20px;
         height: 20px;
-        margin-left: 5px;
     }
     /*---*/
     ul {
         justify-content: right;
         position: relative;
         display: flex;
-        gap: 5px;
+        gap: 2px;
         align-items: center;
+        margin-right: 1.5em;
     }
 
     ul li {
         position: relative;
         list-style: none;
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
         transition: 0.5s;
+
     }
 
     ul li::before {
@@ -773,13 +774,12 @@ form .btn2{
 
     /*---*/
     #header .container img.logo {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
     .header-text {
         margin-top: 5%;
     }
-
     #gol .first {
         padding: 50px 20px;
     }
@@ -815,11 +815,16 @@ form .btn2{
     .about-col-1 model-viewer {
         height: 200px;
     }
-
-    .about-col-2 p {
-        font-size: 14px;
+    .about-col-1 {
+        flex-basis: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-
+    .about-col-2 {
+        flex-basis: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .sub-title {
         font-size: 30px;
     }
@@ -827,73 +832,70 @@ form .btn2{
     #services .container {
         margin-top: 30px;
     }
-
+    #services .container .sub-title{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .services-list div {
         padding: 15px;
         font-size: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-
     .services-list div i {
         font-size: 20px;
         margin-bottom: 15px;
     }
-
     .services-list div h2 {
         font-size: 20px;
         margin-bottom: 10px;
         margin-left: 0px;
     }
-
     .services-list div p {
         font-size: 12px;
         margin-top: 10px;
     }
-
     #technologi .container {
         margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-
     .work-list {
         margin-top: 20px;
     }
-
     .work img {
         border-radius: 3px;
     }
-
     .layer {
         padding: 0 10px;
         font-size: 10px;
     }
-
     .layer h3 {
         font-size: 14px;
         margin-bottom: 5px;
     }
-
     .layer a {
         font-size: 12px;
         line-height: 30px;
         width: 30px;
         height: 30px;
     }
-
     #contact {
         margin-bottom: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-
     .contact-left {
         margin-top: 30px;
+        flex-basis: 100%;
     }
-
     .contact-right {
         margin-top: 60px;
+        flex-basis: 100%;
     }
-
     .contact-left p i {
         font-size: 16px;
     }
-
     .social-icons {
         margin-top: 15px;
     }
@@ -902,12 +904,10 @@ form .btn2{
         font-size: 20px;
         margin-right: 8px;
     }
-
     form input,
     form textarea {
         font-size: 14px;
     }
-
     form .btn2 {
         padding: 10px 30px;
         font-size: 14px;
